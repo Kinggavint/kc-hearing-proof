@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-label="KC Hearing Center logo" role="img">
+  <!-- Outer mark: stylized sound/ear arc -->
+  <circle cx="24" cy="24" r="22" fill="#0B2545"/>
+  <path d="M16 30c0-7 4-12 10-12" stroke="#06A0B5" stroke-width="2.3" fill="none" stroke-linecap="round"/>
+  <path d="M19 30c0-5 3-8 7-8" stroke="#14B8C9" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M22 30c0-3 2-4 4-4" stroke="#E6F7FA" stroke-width="2.1" fill="none" stroke-linecap="round"/>
+  <circle cx="30" cy="18" r="2.2" fill="#06A0B5"/>
+</svg>
