@@ -3,43 +3,51 @@
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Services | KC Hearing Center | Hearing Evaluations, Aids, Tinnitus &amp; More</title>
-<meta name="description" content="Diagnostic hearing evaluations, hearing aid fittings &amp; repairs, assistive listening devices, auditory training, Redux® drying, custom earmolds, and more across Raytown, Belton, Independence, Butler, Higginsville, and Wichita." />
+<meta name="description" content="Diagnostic hearing evaluations, hearing aid fittings &amp; repairs, tinnitus treatment, assistive listening devices, auditory training, Redux® drying, custom earmolds, and more across Raytown, Belton, Independence, Butler, Higginsville, and Wichita." />
 <meta name="theme-color" content="#0B2545"/><link rel="icon" type="image/svg+xml" href="img/favicon.svg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css"/>
+<style>
+/* Item 6/27: Staff photo face centering */
+.staff-photo img { object-position: center 35%; }
+</style>
 <meta property="og:title" content="Services | KC Hearing Center"/>
 <meta property="og:description" content="Comprehensive audiology services across the KC metro and Wichita."/>
-<meta property="og:image" content="img/hero/hero-services.jpg"/>
+<meta property="og:image" content="img/facility/exam-room.jpg"/>
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"ItemList","itemListElement":[
   {"@type":"ListItem","position":1,"item":{"@type":"MedicalProcedure","name":"Diagnostic Hearing Evaluation"}},
   {"@type":"ListItem","position":2,"item":{"@type":"MedicalProcedure","name":"Treatment of Hearing Loss"}},
   {"@type":"ListItem","position":3,"item":{"@type":"MedicalProcedure","name":"Hearing Aid Consultation, Fitting and Repair"}},
-  {"@type":"ListItem","position":4,"item":{"@type":"MedicalDevice","name":"Assistive Listening Devices"}},
-  {"@type":"ListItem","position":5,"item":{"@type":"MedicalTherapy","name":"Auditory Training"}},
-  {"@type":"ListItem","position":6,"item":{"@type":"MedicalProcedure","name":"Redux® Professional Drying"}},
-  {"@type":"ListItem","position":7,"item":{"@type":"MedicalDevice","name":"Ear Impressions & Earmolds"}}
+  {"@type":"ListItem","position":4,"item":{"@type":"MedicalTherapy","name":"Tinnitus Treatment and Therapy"}},
+  {"@type":"ListItem","position":5,"item":{"@type":"MedicalDevice","name":"Assistive Listening Devices"}},
+  {"@type":"ListItem","position":6,"item":{"@type":"MedicalTherapy","name":"Auditory Training (LACE)"}},
+  {"@type":"ListItem","position":7,"item":{"@type":"MedicalProcedure","name":"Redux® Professional Drying"}},
+  {"@type":"ListItem","position":8,"item":{"@type":"MedicalDevice","name":"Ear Impressions & Earmolds"}}
 ]}
 </script>
 </head>
 <body>
 
+<!-- Item 3: Updated topbar -->
 <div class="topbar"><div class="topbar-inner">
-<div>Locally owned. Serving the KC metro &amp; Wichita since 1994.</div>
-<div class="topbar-links"><a href="tel:+18162989088">Raytown (816) 298-9088</a><span>·</span><a href="tel:+18163229883">Belton (816) 322-8883</a><span>·</span><a href="tel:+18163737900">Independence (816) 373-7900</a></div>
+<div>Locally owned. Serving the KC metro, rural Missouri &amp; Wichita since 1994.</div>
+<div class="topbar-links"><a href="tel:+18163003776">Missouri locations: (816) 300-3776</a><span>·</span><a href="tel:+13168583334">Wichita: (316) 858-3334</a></div>
 </div></div>
 
 <header class="site-header"><nav class="nav" aria-label="Main">
-<a class="brand" href="index.html"><img class="brand-mark" src="img/logo.svg" alt=""/><span class="brand-name">KC Hearing Center<small>Better Hearing, Better Living</small></span></a>
+<!-- Item 1: Logo swap -->
+<a class="brand" href="index.html"><img class="brand-mark" src="img/kc-hearing-logo.jpg" alt="KC Hearing Center" style="height:40px;width:auto;border-radius:4px"/><span class="brand-name">KC Hearing Center<small>Better Hearing, Better Living</small></span></a>
 <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
 <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html" class="active">Services</a><a href="providers.html">Providers</a><a href="locations.html">Locations</a><a href="faq.html">FAQs</a><a href="contact.html">Contact</a></div>
 <a class="btn btn-primary" href="contact.html">Book Evaluation</a>
 </nav></header>
 
+<!-- Item 23: Hero uses facility photo instead of hero-services.jpg -->
 <section class="hero hero-sm">
-  <div class="hero-bg"><img src="img/hero/hero-services.jpg" alt="KC Hearing Center clinic interior"/></div>
+  <div class="hero-bg"><img src="img/facility/exam-room.jpg" alt="KC Hearing Center exam room and clinic interior"/></div>
   <div class="hero-inner">
     <span class="hero-eyebrow">Services</span>
     <h1>Comprehensive audiology care, tailored to you.</h1>
@@ -53,6 +61,7 @@
       <a class="pill" href="#evaluations">Diagnostic Evaluations</a>
       <a class="pill" href="#treatment">Treatment of Hearing Loss</a>
       <a class="pill" href="#hearing-aids">Hearing Aids</a>
+      <a class="pill" href="#tinnitus">Tinnitus Treatment</a>
       <a class="pill" href="#ald">Assistive Listening Devices</a>
       <a class="pill" href="#auditory-training">Auditory Training</a>
       <a class="pill" href="#redux">Redux® Drying</a>
@@ -107,12 +116,36 @@
   </div>
 </section>
 
-<section id="ald" class="anchor-offset service-section bg-cream">
+<!-- Item 5: Tinnitus section (new anchor) -->
+<section id="tinnitus" class="anchor-offset service-section bg-cream">
+  <div class="container">
+    <div class="split">
+      <div class="split-media reveal"><img src="img/facility/stenger-6296.jpg" alt="Tinnitus evaluation and treatment at KC Hearing Center" loading="lazy"/></div>
+      <div class="reveal">
+        <span class="section-eyebrow">04 · Tinnitus treatment &amp; therapy</span>
+        <h2>Finding relief from ringing, buzzing, and humming.</h2>
+        <p>Tinnitus — a persistent ringing, buzzing, clicking, or humming sound heard only by you — affects millions of people and can significantly impact quality of life. At KC Hearing Center, we offer comprehensive tinnitus evaluations and evidence-based treatment plans tailored to your specific experience.</p>
+        <p>Our approach combines:</p>
+        <ul>
+          <li><strong>Thorough tinnitus evaluation</strong> to identify contributing factors and measure severity.</li>
+          <li><strong>Sound therapy</strong> including specialized hearing aid programs designed to reduce tinnitus awareness.</li>
+          <li><strong>Tinnitus retraining therapy (TRT)</strong> approaches that help your brain habituate to the sound.</li>
+          <li><strong>Education and counseling</strong> so you understand what's happening and why — which itself reduces distress.</li>
+          <li><strong>Collaboration with medical providers</strong> when underlying causes require further workup.</li>
+        </ul>
+        <p>Many patients experience meaningful improvement in their symptoms and quality of life. If tinnitus is affecting your sleep, concentration, or relationships, a dedicated evaluation is the right first step.</p>
+        <a class="btn btn-primary" href="contact.html" style="margin-top:8px">Schedule a Tinnitus Evaluation</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ald" class="anchor-offset service-section">
   <div class="container">
     <div class="split">
       <div class="split-media reveal"><img src="img/facility/facility-0746.jpg" alt="Assistive listening accessories" loading="lazy"/></div>
       <div class="reveal">
-        <span class="section-eyebrow">04 · Assistive listening devices, apps &amp; accessories</span>
+        <span class="section-eyebrow">05 · Assistive listening devices, apps &amp; accessories</span>
         <h2>When hearing aids alone aren't quite enough.</h2>
         <p>The world around us is filled with complex sound environments that are varied and constantly changing. You will inevitably find yourself in situations where hearing aids alone are not sufficient. In such instances, the added support of a smartphone app, an accessory, or an assistive listening device (ALD) can dramatically enhance your experience.</p>
         <p>We offer the latest, top-of-the-line accessories to improve accessibility in any environment. From discreet free apps on personal devices to TV streamers, remote mics, captioned phones, and more advanced systems — we can recommend a solution that fits your life and lifestyle.</p>
@@ -121,14 +154,15 @@
   </div>
 </section>
 
-<section id="auditory-training" class="anchor-offset service-section">
+<!-- Item 24: Auditory training — updated to mention LACE AI Pro, add placeholder image -->
+<section id="auditory-training" class="anchor-offset service-section bg-cream">
   <div class="container">
     <div class="split">
       <div class="reveal">
-        <span class="section-eyebrow">05 · Auditory training</span>
+        <span class="section-eyebrow">06 · Auditory training (LACE)</span>
         <h2>Hearing is rebuilt in the brain — not just in the device.</h2>
         <p><strong>Auditory training is exercise and therapy for the ear-to-brain connection.</strong> After months or years of untreated hearing loss, the auditory pathways between your ears and your brain weaken. Simply putting in new hearing aids does not automatically restore that connection — it needs practice.</p>
-        <p>Our auditory training programs are structured exercises — some in-office, some at home, some through partner software — that rebuild your brain's ability to distinguish speech in noise, follow a conversation across the table, and hear comfortably in busy rooms again. Most patients see noticeable improvement within a few weeks.</p>
+        <p>We use <strong>Neurotone LACE AI Pro</strong> auditory training — a structured, AI-powered program that adapts to your progress and helps rebuild your brain's ability to distinguish speech in noise, follow a conversation across the table, and hear comfortably in busy rooms again. Most patients see noticeable improvement within a few weeks.</p>
         <h3 style="margin-top:24px">What training looks like</h3>
         <ul>
           <li>A baseline speech-in-noise assessment so we can measure progress.</li>
@@ -138,17 +172,24 @@
         </ul>
         <p>It is one of the highest-impact services we offer, and one of the most overlooked.</p>
       </div>
-      <div class="split-media reveal"><img src="img/facility/stenger-6278.jpg" alt="Auditory training session" loading="lazy"/></div>
+      <div class="split-media reveal">
+        <!-- ASSET PENDING: lace-app.jpg — needs actual LACE AI Pro app screenshot from Neurotone marketing -->
+        <img src="img/services/lace-app.jpg" alt="Neurotone LACE AI Pro auditory training app interface" loading="lazy" onerror="this.style.background='var(--cream)';this.style.minHeight='200px';this.alt='LACE AI Pro — image coming soon'"/>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="redux" class="anchor-offset service-section bg-cream">
+<!-- Item 25: Redux section — updated copy, add placeholder image -->
+<section id="redux" class="anchor-offset service-section">
   <div class="container">
     <div class="split">
-      <div class="split-media reveal"><img src="img/facility/facility-0749.jpg" alt="Redux professional in-office hearing aid dryer" loading="lazy"/></div>
+      <div class="split-media reveal">
+        <!-- ASSET PENDING: redux-dryer.jpg — needs Redux Pro Dryer product image from manufacturer or marketing -->
+        <img src="img/services/redux-dryer.jpg" alt="Redux professional in-office hearing aid dryer" loading="lazy" onerror="this.style.background='var(--cream)';this.style.minHeight='200px';this.alt='Redux Pro Dryer — image coming soon'"/>
+      </div>
       <div class="reveal">
-        <span class="section-eyebrow">06 · Redux® professional drying</span>
+        <span class="section-eyebrow">07 · Redux® professional drying</span>
         <h2>Our standard of care for hearing aid performance.</h2>
         <p>Moisture is the #1 day-to-day culprit behind hearing aid glitches. That is why we use the Redux® professional in-office dryer as part of routine care, so your devices perform at their best every day.</p>
         <ul>
@@ -164,11 +205,11 @@
   </div>
 </section>
 
-<section id="earmolds" class="anchor-offset service-section">
+<section id="earmolds" class="anchor-offset service-section bg-cream">
   <div class="container">
     <div class="split">
       <div class="reveal">
-        <span class="section-eyebrow">07 · Ear impressions &amp; custom earmolds</span>
+        <span class="section-eyebrow">08 · Ear impressions &amp; custom earmolds</span>
         <h2>Custom protection and performance — shaped to you.</h2>
         <p>Your ears are as unique as your fingerprints. Whether you are protecting them from loud environments or shaping sound for music or sport, a properly fit custom earmold makes a night-and-day difference in comfort, seal, and acoustic performance.</p>
         <p>We offer ear impressions and custom earmolds for:</p>
@@ -181,7 +222,7 @@
         </ul>
         <p>Visit any of our locations for a quick, painless impression and we will follow up when your custom molds arrive.</p>
       </div>
-      <div class="split-media reveal"><img src="img/facility/stenger-6296.jpg" alt="Custom earmolds being made at KC Hearing Center" loading="lazy"/></div>
+      <div class="split-media reveal"><img src="img/facility/stenger-6217.jpg" alt="Custom earmolds being made at KC Hearing Center" loading="lazy"/></div>
     </div>
   </div>
 </section>
@@ -199,9 +240,18 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-col"><a class="footer-brand" href="index.html"><img class="brand-mark" src="img/logo.svg" alt=""/><span class="brand-name" style="color:#fff">KC Hearing Center<small style="color:var(--teal-500)">Better Hearing, Better Living</small></span></a><p class="footer-tagline">Locally owned audiology and hearing aid practice serving Raytown, Belton, Independence, Butler, Higginsville, and Wichita.</p></div>
+      <!-- Item 1: Logo swap -->
+      <div class="footer-col"><a class="footer-brand" href="index.html"><img class="brand-mark" src="img/kc-hearing-logo.jpg" alt="KC Hearing Center" style="height:40px;width:auto;border-radius:4px"/><span class="brand-name" style="color:#fff">KC Hearing Center<small style="color:var(--teal-500)">Better Hearing, Better Living</small></span></a><p class="footer-tagline">Locally owned audiology and hearing aid practice serving Raytown, Belton, Independence, Butler, Higginsville, and Wichita.</p></div>
       <div class="footer-col"><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="providers.html">Providers</a></li><li><a href="locations.html">Locations</a></li><li><a href="faq.html">FAQs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-      <div class="footer-col"><h4>Kansas City Metro</h4><ul><li><a href="tel:+18162989088">Raytown · (816) 298-9088</a></li><li><a href="tel:+18163229883">Belton · (816) 322-8883</a></li><li><a href="tel:+18163737900">Independence · (816) 373-7900</a></li><li><a href="tel:+18163229883">Butler · (816) 322-8883</a></li><li><a href="tel:+18166059855">Higginsville · (816) 605-9855</a></li></ul></div>
+      <div class="footer-col"><h4>Kansas City Metro</h4><ul>
+        <!-- Item 18: Updated Raytown phone -->
+        <li><a href="tel:+18167370055">Raytown · (816) 737-0055</a></li>
+        <li><a href="tel:+18163229883">Belton · (816) 322-8883</a></li>
+        <li><a href="tel:+18163737900">Independence · (816) 373-7900</a></li>
+        <li><a href="tel:+18163229883">Butler · (816) 322-8883</a></li>
+        <!-- Item 37: Updated Higginsville phone -->
+        <li><a href="tel:+18163737900">Higginsville · (816) 373-7900</a></li>
+      </ul></div>
       <div class="footer-col"><h4>Wichita</h4><ul><li><a href="tel:+13168583334">Wichita · (316) 858-3334</a></li><li>3500 N Rock Rd, Bldg 1200<br/>Wichita, KS 67226</li></ul></div>
     </div>
     <div class="footer-bottom"><div>&copy; 2026 KC Hearing Center. All rights reserved.</div><div>Accepting most insurance · Free consultations · 30-day risk-free trials</div></div>

@@ -10,26 +10,31 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css"/>
+<style>
+/* Item 6/27: Staff photo face centering */
+.staff-photo img { object-position: center 35%; }
+</style>
 <meta property="og:title" content="About KC Hearing Center" />
 <meta property="og:description" content="Locally owned audiology practice, built around education and patient-first care." />
 <meta property="og:image" content="img/hero/hero-about.jpg" />
 </head>
 <body>
 
+<!-- Item 3: Updated topbar — Missouri + Wichita lines -->
 <div class="topbar">
   <div class="topbar-inner">
-    <div>Locally owned. Serving the KC metro &amp; Wichita since 1994.</div>
+    <div>Locally owned. Serving the KC metro, rural Missouri &amp; Wichita since 1994.</div>
     <div class="topbar-links">
-      <a href="tel:+18162989088">Raytown (816) 298-9088</a><span>·</span>
-      <a href="tel:+18163229883">Belton (816) 322-8883</a><span>·</span>
-      <a href="tel:+18163737900">Independence (816) 373-7900</a>
+      <a href="tel:+18163003776">Missouri locations: (816) 300-3776</a><span>·</span>
+      <a href="tel:+13168583334">Wichita: (316) 858-3334</a>
     </div>
   </div>
 </div>
 
 <header class="site-header">
   <nav class="nav" aria-label="Main">
-    <a class="brand" href="index.html"><img class="brand-mark" src="img/logo.svg" alt=""/><span class="brand-name">KC Hearing Center<small>Better Hearing, Better Living</small></span></a>
+    <!-- Item 1: Logo swap -->
+    <a class="brand" href="index.html"><img class="brand-mark" src="img/kc-hearing-logo.jpg" alt="KC Hearing Center" style="height:40px;width:auto;border-radius:4px"/><span class="brand-name">KC Hearing Center<small>Better Hearing, Better Living</small></span></a>
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
     <div class="nav-links">
       <a href="index.html">Home</a><a href="about.html" class="active">About</a><a href="services.html">Services</a>
@@ -43,8 +48,9 @@
   <div class="hero-bg"><img src="img/hero/hero-about.jpg" alt="KC Hearing Center team and office"/></div>
   <div class="hero-inner">
     <span class="hero-eyebrow">About us</span>
+    <!-- Item 21: Updated hero copy with 6 locations and expanded geography -->
     <h1>Better hearing. Better living. Built in Kansas City.</h1>
-    <p class="lede">Four long-standing audiology practices, one locally owned team — helping neighbors across the KC metro and Wichita hear their best lives.</p>
+    <p class="lede">Four long-standing audiology practices, 6 locations, one locally owned team — helping neighbors across the KC metro and Wichita hear and live better.</p>
   </div>
 </section>
 
@@ -54,8 +60,9 @@
       <div class="split-media reveal"><img src="img/facility/stenger-6170.jpg" alt="Audiologist consulting with a patient at KC Hearing Center" loading="lazy"/></div>
       <div class="reveal">
         <span class="section-eyebrow">Our story</span>
-        <h2>Rooted in Raytown. Growing with our community.</h2>
-        <p>KC Hearing Center began as Raytown Hearing Aid Service — a small, trusted practice that has cared for the Kansas City region for more than 30 years. In 2023, Kathryn "Kathy" Grote, a practicing audiologist with two decades of experience supporting patients across the Midwest, acquired the practice and reintroduced it as KC Hearing Center.</p>
+        <!-- Item 4: Geography updated -->
+        <h2>Rooted in Kansas City. Growing with our community.</h2>
+        <p>KC Hearing Center began as Raytown Hearing Aid Service — a small, trusted practice that has cared for the Kansas City metro and surrounding rural communities for more than 30 years. In 2023, Kathryn "Kathy" Grote, a practicing audiologist with two decades of experience supporting patients across the Midwest, acquired the practice and reintroduced it as KC Hearing Center.</p>
         <p>Today we are comprised of four long-standing audiology practices in the region — Jackson County Audiology, Wright Audiology &amp; Hearing Aids, Raytown Hearing Aid Services, and The Center for Better Hearing in Wichita. Together, we are one locally owned team, united by a simple commitment: help our neighbors hear their best.</p>
       </div>
     </div>
@@ -102,7 +109,8 @@
         </ul>
         <a class="btn btn-primary" href="services.html" style="margin-top:14px">Explore our services</a>
       </div>
-      <div class="split-media reveal"><img src="img/facility/stenger-6217.jpg" alt="Hearing aid fitting room with professional diagnostic equipment" loading="lazy"/></div>
+      <!-- Item 22: Replace duplicate background — use welcome.jpg instead of stenger-6217 (which was already used in Our Story split above) -->
+      <div class="split-media reveal"><img src="img/facility/welcome.jpg" alt="Warm welcome at KC Hearing Center — our offices are designed to put patients at ease" loading="lazy"/></div>
     </div>
   </div>
 </section>
@@ -120,7 +128,7 @@
       <div class="reveal" style="border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md)"><img src="img/facility/stenger-6236.jpg" alt="Audiologist with a patient during a fitting" style="aspect-ratio:4/3;object-fit:cover;width:100%"/></div>
       <div class="reveal" style="border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md)"><img src="img/facility/stenger-6278.jpg" alt="Professional lifestyle image of staff and patient" style="aspect-ratio:4/3;object-fit:cover;width:100%"/></div>
       <div class="reveal" style="border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md)"><img src="img/facility/stenger-6296.jpg" alt="Office interior detail" style="aspect-ratio:4/3;object-fit:cover;width:100%"/></div>
-      <div class="reveal" style="border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md)"><img src="img/facility/welcome.jpg" alt="Welcome sign at entrance" style="aspect-ratio:4/3;object-fit:cover;width:100%"/></div>
+      <div class="reveal" style="border-radius:20px;overflow:hidden;box-shadow:var(--shadow-md)"><img src="img/facility/stenger-6217.jpg" alt="Hearing aid fitting room with professional diagnostic equipment" style="aspect-ratio:4/3;object-fit:cover;width:100%"/></div>
     </div>
   </div>
 </section>
@@ -139,16 +147,19 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-col">
-        <a class="footer-brand" href="index.html"><img class="brand-mark" src="img/logo.svg" alt=""/><span class="brand-name" style="color:#fff">KC Hearing Center<small style="color:var(--teal-500)">Better Hearing, Better Living</small></span></a>
+        <!-- Item 1: Logo swap in footer -->
+        <a class="footer-brand" href="index.html"><img class="brand-mark" src="img/kc-hearing-logo.jpg" alt="KC Hearing Center" style="height:40px;width:auto;border-radius:4px"/><span class="brand-name" style="color:#fff">KC Hearing Center<small style="color:var(--teal-500)">Better Hearing, Better Living</small></span></a>
         <p class="footer-tagline">Locally owned audiology and hearing aid practice serving Raytown, Belton, Independence, Butler, Higginsville, and Wichita.</p>
       </div>
       <div class="footer-col"><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="providers.html">Providers</a></li><li><a href="locations.html">Locations</a></li><li><a href="faq.html">FAQs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
       <div class="footer-col"><h4>Kansas City Metro</h4><ul>
-        <li><a href="tel:+18162989088">Raytown · (816) 298-9088</a></li>
+        <!-- Item 18: Updated Raytown phone -->
+        <li><a href="tel:+18167370055">Raytown · (816) 737-0055</a></li>
         <li><a href="tel:+18163229883">Belton · (816) 322-8883</a></li>
         <li><a href="tel:+18163737900">Independence · (816) 373-7900</a></li>
         <li><a href="tel:+18163229883">Butler · (816) 322-8883</a></li>
-        <li><a href="tel:+18166059855">Higginsville · (816) 605-9855</a></li>
+        <!-- Item 37: Updated Higginsville phone -->
+        <li><a href="tel:+18163737900">Higginsville · (816) 373-7900</a></li>
       </ul></div>
       <div class="footer-col"><h4>Wichita</h4><ul>
         <li><a href="tel:+13168583334">Wichita · (316) 858-3334</a></li>

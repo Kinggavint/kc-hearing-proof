@@ -8,26 +8,33 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css"/>
+<style>
+/* Item 6/27: Staff photo face centering */
+.staff-photo img { object-position: center 35%; }
+</style>
 <meta property="og:title" content="Our Providers | KC Hearing Center"/>
 <meta property="og:description" content="Audiologists and hearing specialists across our six Kansas City metro and Wichita locations."/>
 <meta property="og:image" content="img/staff/kathy-grote.jpg"/>
 </head>
 <body>
 
+<!-- Item 3: Updated topbar -->
 <div class="topbar"><div class="topbar-inner">
-<div>Locally owned. Serving the KC metro &amp; Wichita since 1994.</div>
-<div class="topbar-links"><a href="tel:+18162989088">Raytown (816) 298-9088</a><span>·</span><a href="tel:+18163229883">Belton (816) 322-8883</a><span>·</span><a href="tel:+18163737900">Independence (816) 373-7900</a></div>
+<div>Locally owned. Serving the KC metro, rural Missouri &amp; Wichita since 1994.</div>
+<div class="topbar-links"><a href="tel:+18163003776">Missouri locations: (816) 300-3776</a><span>·</span><a href="tel:+13168583334">Wichita: (316) 858-3334</a></div>
 </div></div>
 
 <header class="site-header"><nav class="nav" aria-label="Main">
-<a class="brand" href="index.html"><img class="brand-mark" src="img/logo.svg" alt=""/><span class="brand-name">KC Hearing Center<small>Better Hearing, Better Living</small></span></a>
+<!-- Item 1: Logo swap -->
+<a class="brand" href="index.html"><img class="brand-mark" src="img/kc-hearing-logo.jpg" alt="KC Hearing Center" style="height:40px;width:auto;border-radius:4px"/><span class="brand-name">KC Hearing Center<small>Better Hearing, Better Living</small></span></a>
 <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
 <div class="nav-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="providers.html" class="active">Providers</a><a href="locations.html">Locations</a><a href="faq.html">FAQs</a><a href="contact.html">Contact</a></div>
 <a class="btn btn-primary" href="contact.html">Book Evaluation</a>
 </nav></header>
 
+<!-- Item 26: Team/group photo -->
 <section class="hero hero-sm">
-  <div class="hero-bg"><img src="img/facility/stenger-6236.jpg" alt="KC Hearing Center providers"/></div>
+  <div class="hero-bg"><img src="img/staff/staff-team.jpg" alt="KC Hearing Center team photo"/></div>
   <div class="hero-inner">
     <span class="hero-eyebrow">Meet the team</span>
     <h1>Your audiologists, specialists, and support team.</h1>
@@ -37,10 +44,12 @@
 
 <section>
   <div class="container">
-    <div class="section-head reveal"><span class="section-eyebrow">Audiologists &amp; specialists</span><h2>Clinical team</h2></div>
 
+    <!-- ===== SECTION 1: PROVIDERS ===== Item 28 -->
+    <div class="section-head reveal"><span class="section-eyebrow">Audiologists &amp; hearing specialists</span><h2>Providers</h2></div>
     <div class="grid grid-3">
 
+      <!-- Kathryn Grote -->
       <article class="staff-card reveal">
         <div class="staff-photo"><img src="img/staff/kathy-grote.jpg" alt="Portrait of Kathryn Grote, MS" loading="lazy"/></div>
         <div class="staff-body">
@@ -51,36 +60,40 @@
         </div>
       </article>
 
+      <!-- Dr. Pamela A. Nelson — Item 28: locations updated to include Belton & Butler -->
       <article class="staff-card reveal">
         <div class="staff-photo"><img src="img/staff/pam-nelson.jpg" alt="Portrait of Dr. Pamela A. Nelson, Au.D." loading="lazy"/></div>
         <div class="staff-body">
           <h3>Dr. Pamela A. Nelson, Au.D.</h3>
           <div class="staff-role">Audiologist</div>
-          <span class="staff-locs">Independence &amp; Raytown</span>
+          <span class="staff-locs">Independence, Raytown, Belton &amp; Butler</span>
           <p class="staff-bio">Pamela has over 30 years of experience working with patients to improve their hearing and communication skills. She received her Doctor of Audiology from Salus University and has practiced in private offices and ENT clinics. A past President of the Kansas City Society of Audiology and Convention Co-Chair of the Missouri Speech and Hearing Association, she takes a holistic approach — because better hearing improves communication with family, friends, and co-workers, which improves quality of life.</p>
         </div>
       </article>
 
+      <!-- Dr. Haley Womack — Item 28: NO Raytown, add Belton -->
       <article class="staff-card reveal">
         <div class="staff-photo"><img src="img/staff/haley-womack.jpg" alt="Portrait of Dr. Haley Womack, Au.D." loading="lazy"/></div>
         <div class="staff-body">
           <h3>Dr. Haley Womack, Au.D.</h3>
           <div class="staff-role">Audiologist</div>
-          <span class="staff-locs">Raytown, Independence, Higginsville &amp; Belton</span>
+          <span class="staff-locs">Independence, Higginsville &amp; Belton</span>
           <p class="staff-bio">Haley graduated in May 2023 with her Doctor of Audiology from Missouri State University. Her clinical experience includes vestibular testing, tinnitus treatment, and hearing aid fittings. She believes in a patient-centered plan of care and takes a personalized approach to selecting the hearing aid that best suits each individual's lifestyle — because better hearing can profoundly change a person's outlook on life.</p>
         </div>
       </article>
 
+      <!-- Item 30/33: Chelsea Peyton — NEW, Wichita, full bio -->
       <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/staff/nina.jpg" alt="Portrait of Dr. Minnie Baldridge, AuD, CCC-A" loading="lazy"/></div>
+        <div class="staff-photo"><img src="img/staff/chelsea.jpg" alt="Portrait of Dr. Chelsea Peyton, Au.D." loading="lazy"/></div>
         <div class="staff-body">
-          <h3>Dr. Minnie Baldridge, AuD, CCC-A</h3>
+          <h3>Dr. Chelsea Peyton, Au.D.</h3>
           <div class="staff-role">Audiologist</div>
-          <span class="staff-locs">Raytown &amp; Butler</span>
-          <p class="staff-bio">Minnie has her doctorate in audiology and over 20 years of experience across the Kansas City region. She has worked in hospitals, private practice, ENT clinics, and directly with insurance companies, and she serves veterans by performing C&amp;P evaluations. Minnie offers a kind, personalized approach to every visit, with a goal of increasing access to hearing health care for all.</p>
+          <span class="staff-locs">Wichita</span>
+          <p class="staff-bio">Dr. Chelsea Peyton joined our team to lead the Wichita office. She earned both her Bachelor of Arts in Communication Sciences and Disorders and her Doctorate of Audiology from Wichita State University. A self-described problem solver, Dr. Peyton enjoys hearing evaluations, hearing aid consultations and fittings, and tinnitus evaluations. Born and raised in Wichita, she is devoted to serving her hometown community. Her goal is to listen to each patient's concerns and tailor her approach so every patient feels heard.</p>
         </div>
       </article>
 
+      <!-- Kara Barrus -->
       <article class="staff-card reveal">
         <div class="staff-photo"><img src="img/staff/kara-barrus.jpg" alt="Portrait of Kara Barrus, BA" loading="lazy"/></div>
         <div class="staff-body">
@@ -91,19 +104,44 @@
         </div>
       </article>
 
+      <!-- Item 7d/28: Emma Walls — HIS In-Training, Independence -->
       <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/facility/stenger-6170.jpg" alt="KC Hearing Center Wichita clinical environment — provider portrait coming soon" loading="lazy"/></div>
+        <div class="staff-photo"><img src="img/staff/emma-walls.jpg" alt="Portrait of Emma Walls, Hearing Instrument Specialist In-Training" loading="lazy"/></div>
         <div class="staff-body">
-          <h3>Dr. Stacey Kampe, Au.D., CCC-A</h3>
-          <div class="staff-role">Audiologist</div>
-          <span class="staff-locs">Wichita</span>
-          <p class="staff-bio">Dr. Stacey Kampe has served the Wichita community for more than 30 years. She began her career at Heartspring, then practiced with Via Christi ENT before joining Wichita State University as a clinical supervisor and professor. Her clinical passions include hearing aids, tinnitus, hyperacusis, and noise-induced hearing loss prevention — all delivered with whole-person care and practical, compassionate guidance. <em>(Headshot coming soon.)</em></p>
+          <h3>Emma Walls</h3>
+          <div class="staff-role">Hearing Instrument Specialist In-Training</div>
+          <span class="staff-locs">Independence</span>
+          <p class="staff-bio">Emma holds a bachelor's degree in Speech, Language and Hearing Sciences, is a current Audiology doctoral student at KU Medical Center, and a licensed audiology assistant. She is passionate about providing individualized, patient-centered care and helping patients and their families live life to the fullest.</p>
         </div>
       </article>
 
-    </div>
+      <!-- Item 7e/29/34: Sammy Finley — HIS In-Training, KC Locations, full bio -->
+      <article class="staff-card reveal">
+        <div class="staff-photo"><img src="img/staff/sammy.jpg" alt="Portrait of Sammy Finley, Hearing Instrument Specialist In-Training" loading="lazy"/></div>
+        <div class="staff-body">
+          <h3>Sammy Finley</h3>
+          <div class="staff-role">Hearing Instrument Specialist In-Training</div>
+          <span class="staff-locs">KC Locations</span>
+          <p class="staff-bio">Sammy Finley holds a Bachelor's degree in Communication Sciences and Disorders and is currently an Audiology Doctoral Student at KU Medical Center. She is also a Hearing Instrument Specialist In-Training, working under licensed providers as she completes her doctorate. Sammy brings clinical curiosity and a patient-first approach to every visit.</p>
+        </div>
+      </article>
 
-    <div class="section-head reveal" style="margin-top:60px"><span class="section-eyebrow">Audiology assistants</span><h2>Support team</h2></div>
+      <!-- Item 7f/28: Dr. Cindy Bloyer — placeholder photo, KC Locations -->
+      <article class="staff-card reveal">
+        <!-- Photo pending: placeholder used until Cindy Bloyer photo is provided -->
+        <div class="staff-photo"><img src="img/staff/placeholder.jpg" alt="Portrait of Dr. Cindy Bloyer, Audiologist — photo coming soon" loading="lazy"/></div>
+        <div class="staff-body">
+          <h3>Dr. Cindy Bloyer</h3>
+          <div class="staff-role">Audiologist</div>
+          <span class="staff-locs">KC Locations</span>
+          <p class="staff-bio">Experienced audiologist dedicated to comprehensive hearing care across Kansas City. <em>(Bio and photo coming soon.)</em></p>
+        </div>
+      </article>
+
+    </div><!-- end Providers grid -->
+
+    <!-- ===== SECTION 2: AUDIOLOGY ASSISTANTS ===== Item 28 -->
+    <div class="section-head reveal" style="margin-top:60px"><span class="section-eyebrow">Clinical support staff</span><h2>Audiology Assistants</h2></div>
     <div class="grid grid-3">
 
       <article class="staff-card reveal">
@@ -136,82 +174,66 @@
         </div>
       </article>
 
-      <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/staff/emma-walls.jpg" alt="Portrait of Emma Walls" loading="lazy"/></div>
-        <div class="staff-body">
-          <h3>Emma Walls</h3>
-          <div class="staff-role">Licensed Audiology Assistant</div>
-          <span class="staff-locs">Independence</span>
-          <p class="staff-bio">Emma holds a bachelor's degree in Speech, Language and Hearing Sciences, is a current Audiology doctoral student at KU Medical Center, and a licensed audiology assistant. She is passionate about providing individualized, patient-centered care and helping patients and their families live life to the fullest.</p>
-        </div>
-      </article>
+    </div><!-- end Audiology Assistants grid -->
 
-      <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/staff/sammy.jpg" alt="Portrait of Sammy, KC Hearing Center team" loading="lazy"/></div>
-        <div class="staff-body">
-          <h3>Sammy</h3>
-          <div class="staff-role">Audiology Assistant</div>
-          <span class="staff-locs">KC Hearing Center team</span>
-          <p class="staff-bio">Full bio coming soon.</p>
-        </div>
-      </article>
-
-      <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/staff/chelsea.jpg" alt="Portrait of Chelsea, KC Hearing Center team" loading="lazy"/></div>
-        <div class="staff-body">
-          <h3>Chelsea</h3>
-          <div class="staff-role">Audiology Assistant</div>
-          <span class="staff-locs">KC Hearing Center team</span>
-          <p class="staff-bio">Full bio coming soon.</p>
-        </div>
-      </article>
-
-      <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/staff/staff-team.jpg" alt="Portrait of a KC Hearing Center team member" loading="lazy"/></div>
-        <div class="staff-body">
-          <h3>KC Hearing Center Team</h3>
-          <div class="staff-role">Audiology Support</div>
-          <span class="staff-locs">KC Hearing Center</span>
-          <p class="staff-bio">Full bio coming soon.</p>
-        </div>
-      </article>
-
-    </div>
-
-    <div class="section-head reveal" style="margin-top:60px"><span class="section-eyebrow">Patient care coordinators</span><h2>Front-office team</h2></div>
+    <!-- ===== SECTION 3: PATIENT CARE COORDINATORS ===== Item 28 / Item 36: no bios, just name+photo+location -->
+    <div class="section-head reveal" style="margin-top:60px"><span class="section-eyebrow">Front-office team</span><h2>Patient Care Coordinators</h2></div>
     <div class="grid grid-3">
 
+      <!-- Item 32: Nina is PCC for Independence (using nina.jpg) -->
       <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/staff/kylie-paradis.jpg" alt="Portrait of Kylie Paradis" loading="lazy"/></div>
+        <div class="staff-photo"><img src="img/staff/nina.jpg" alt="Portrait of Nina, Patient Care Coordinator" loading="lazy"/></div>
+        <div class="staff-body">
+          <h3>Nina</h3>
+          <div class="staff-role">Patient Care Coordinator</div>
+          <span class="staff-locs">Independence</span>
+        </div>
+      </article>
+
+      <article class="staff-card reveal">
+        <div class="staff-photo"><img src="img/staff/kylie-paradis.jpg" alt="Portrait of Kylie Paradis, Patient Care Coordinator" loading="lazy"/></div>
         <div class="staff-body">
           <h3>Kylie Paradis</h3>
           <div class="staff-role">Patient Care Coordinator</div>
-          <span class="staff-locs">KC Hearing Center</span>
-          <p class="staff-bio">Full bio coming soon.</p>
+          <span class="staff-locs">Belton</span>
         </div>
       </article>
 
+      <!-- Jenifer — Raytown PCC. Using jenifer-medellin photo per spec note pending Kathryn confirmation -->
       <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/facility/facility-8857.jpg" alt="Patient Care Coordinator headshot placeholder" loading="lazy"/></div>
+        <div class="staff-photo"><img src="img/staff/jenifer-medellin.jpg" alt="Portrait of Jenifer, Patient Care Coordinator" loading="lazy"/></div>
         <div class="staff-body">
-          <h3>Mercedes Haase</h3>
+          <h3>Jenifer</h3>
           <div class="staff-role">Patient Care Coordinator</div>
-          <span class="staff-locs">KC Hearing Center</span>
-          <p class="staff-bio">Full bio coming soon.</p>
+          <span class="staff-locs">Raytown</span>
         </div>
       </article>
 
+      <!-- Tiffany — Butler, no photo -->
       <article class="staff-card reveal">
-        <div class="staff-photo"><img src="img/facility/exam-room.jpg" alt="Patient Care Coordinator headshot placeholder"  loading="lazy"/></div>
+        <div class="staff-photo" style="display:flex;align-items:center;justify-content:center;background:var(--cream)">
+          <span style="font-size:3rem;color:var(--teal-600)">&#128100;</span>
+        </div>
         <div class="staff-body">
-          <h3>Kim Ellis</h3>
+          <h3>Tiffany</h3>
           <div class="staff-role">Patient Care Coordinator</div>
-          <span class="staff-locs">KC Hearing Center</span>
-          <p class="staff-bio">Full bio coming soon.</p>
+          <span class="staff-locs">Butler</span>
         </div>
       </article>
 
-    </div>
+      <!-- Brigit — Wichita, no photo -->
+      <article class="staff-card reveal">
+        <div class="staff-photo" style="display:flex;align-items:center;justify-content:center;background:var(--cream)">
+          <span style="font-size:3rem;color:var(--teal-600)">&#128100;</span>
+        </div>
+        <div class="staff-body">
+          <h3>Brigit</h3>
+          <div class="staff-role">Patient Care Coordinator</div>
+          <span class="staff-locs">Wichita</span>
+        </div>
+      </article>
+
+    </div><!-- end PCCs grid -->
 
   </div>
 </section>
@@ -229,9 +251,18 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-col"><a class="footer-brand" href="index.html"><img class="brand-mark" src="img/logo.svg" alt=""/><span class="brand-name" style="color:#fff">KC Hearing Center<small style="color:var(--teal-500)">Better Hearing, Better Living</small></span></a><p class="footer-tagline">Locally owned audiology and hearing aid practice serving Raytown, Belton, Independence, Butler, Higginsville, and Wichita.</p></div>
+      <!-- Item 1: Logo swap -->
+      <div class="footer-col"><a class="footer-brand" href="index.html"><img class="brand-mark" src="img/kc-hearing-logo.jpg" alt="KC Hearing Center" style="height:40px;width:auto;border-radius:4px"/><span class="brand-name" style="color:#fff">KC Hearing Center<small style="color:var(--teal-500)">Better Hearing, Better Living</small></span></a><p class="footer-tagline">Locally owned audiology and hearing aid practice serving Raytown, Belton, Independence, Butler, Higginsville, and Wichita.</p></div>
       <div class="footer-col"><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="providers.html">Providers</a></li><li><a href="locations.html">Locations</a></li><li><a href="faq.html">FAQs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-      <div class="footer-col"><h4>Kansas City Metro</h4><ul><li><a href="tel:+18162989088">Raytown · (816) 298-9088</a></li><li><a href="tel:+18163229883">Belton · (816) 322-8883</a></li><li><a href="tel:+18163737900">Independence · (816) 373-7900</a></li><li><a href="tel:+18163229883">Butler · (816) 322-8883</a></li><li><a href="tel:+18166059855">Higginsville · (816) 605-9855</a></li></ul></div>
+      <div class="footer-col"><h4>Kansas City Metro</h4><ul>
+        <!-- Item 18: Updated Raytown phone -->
+        <li><a href="tel:+18167370055">Raytown · (816) 737-0055</a></li>
+        <li><a href="tel:+18163229883">Belton · (816) 322-8883</a></li>
+        <li><a href="tel:+18163737900">Independence · (816) 373-7900</a></li>
+        <li><a href="tel:+18163229883">Butler · (816) 322-8883</a></li>
+        <!-- Item 37: Updated Higginsville phone -->
+        <li><a href="tel:+18163737900">Higginsville · (816) 373-7900</a></li>
+      </ul></div>
       <div class="footer-col"><h4>Wichita</h4><ul><li><a href="tel:+13168583334">Wichita · (316) 858-3334</a></li><li>3500 N Rock Rd, Bldg 1200<br/>Wichita, KS 67226</li></ul></div>
     </div>
     <div class="footer-bottom"><div>&copy; 2026 KC Hearing Center. All rights reserved.</div><div>Accepting most insurance · Free consultations · 30-day risk-free trials</div></div>
