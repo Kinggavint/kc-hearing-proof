@@ -346,3 +346,13 @@ html.js .reveal.in{opacity:1;transform:none}
   .hero .lede{font-size:1.05rem}
   body{font-size:16.5px}
 }
+
+/* Item 4: Re-crop provider portraits to show full head/face (heads were getting cut off) */
+.staff-photo img[src*="haley-womack"],
+.staff-photo img[src*="kara-barrus"],
+.staff-photo img[src*="karen-poletis"],
+.staff-photo img[src*="liz-devoss"]{
+  object-position: center 22%;
+}
+/* Defensive: hide any lingering Pamela Nelson card if it reappears after migration */
+.staff-card:has(img[src*="pam-nelson"]){ display: none !important; }

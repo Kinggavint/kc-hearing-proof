@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Photo coming soon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e2a4a"/>
+      <stop offset="100%" stop-color="#163657"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g fill="#dbe7f3" font-family="Georgia, 'Times New Roman', serif">
+    <text x="600" y="380" text-anchor="middle" font-size="64" font-weight="700">Photo coming soon</text>
+    <text x="600" y="450" text-anchor="middle" font-size="28" fill="#a5bfd9" font-family="Inter, Arial, sans-serif">Warrensburg, Missouri</text>
+  </g>
+  <g stroke="#7a99bb" stroke-width="2" fill="none" opacity="0.6">
+    <circle cx="600" cy="240" r="48"/>
+    <path d="M576 240 l16 16 l32 -32" stroke="#dbe7f3" stroke-width="4"/>
+  </g>
+</svg>
