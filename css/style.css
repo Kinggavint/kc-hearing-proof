@@ -356,3 +356,10 @@ html.js .reveal.in{opacity:1;transform:none}
 }
 /* Defensive: hide any lingering Pamela Nelson card if it reappears after migration */
 .staff-card:has(img[src*="pam-nelson"]){ display: none !important; }
+
+
+/* Proof changes 2026-05-12: ensure provider headshots are centered */
+.team-member img, .provider-card img {
+  object-fit: cover;
+  object-position: center top;
+}
