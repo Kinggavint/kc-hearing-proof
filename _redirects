@@ -1,0 +1,9 @@
+# Domain aliases -> primary domain
+# (Netlify-style syntax; harmless on static hosts, used by some CDNs)
+https://kchearing.com/* https://hearingcenterkc.com/:splat 301!
+https://kchearingcenter.com/* https://hearingcenterkc.com/:splat 301!
+https://thecenterforbetterhearing.biz/* https://hearingcenterkc.com/:splat 301!
+https://thecenterforbetterhearing.com/* https://hearingcenterkc.com/:splat 301!
+https://thecenterforbetterhearing.net/* https://hearingcenterkc.com/:splat 301!
+https://thecenterforbetterhearing.org/* https://hearingcenterkc.com/:splat 301!
+https://thecenterforbetterhearing.us/* https://hearingcenterkc.com/:splat 301!
