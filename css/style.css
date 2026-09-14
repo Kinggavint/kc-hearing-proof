@@ -347,8 +347,10 @@ html.js .reveal.in{opacity:1;transform:none}
   body{font-size:16.5px}
 }
 
-/* Item 4: Re-crop provider portraits to show full head/face (heads were getting cut off) */
-.staff-photo img[src*="haley-womack"],
+/* Item 4: Re-crop provider portraits to show full head/face */
+.staff-photo img[src*="haley-womack"]{
+  object-position: center 20%;
+}
 .staff-photo img[src*="emma-walls"],
 .staff-photo img[src*="kylie-paradis"],
 .staff-photo img[src*="kara-barrus"],
