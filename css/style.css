@@ -118,7 +118,7 @@ p{margin:0 0 1em}
   .nav-links.open{display:flex}
   .nav-links a{width:100%}
   .menu-toggle{display:inline-flex}
-  .nav .btn{display:none}
+  .nav .btn{padding:8px 12px;font-size:.85rem;margin-left:auto;margin-right:8px}
   .topbar-inner{font-size:.78rem;gap:10px;justify-content:center}
 }
 
