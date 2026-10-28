@@ -1,0 +1,13 @@
+{
+  "_comment": "Single source of truth for KC Hearing Center phones; scripts/check_nap.py enforces it before deploy. Per-office numbers are the ones the site has carried since launch (Jun 2026) from client intake; 816-300-3776 is the Missouri central line. Never take a number from an email signature alone. 816-322-9883 is the Belton/Butler tel: typo fixed by PR #1.",
+  "name": "KC Hearing Center",
+  "phones": [
+    {"label": "Missouri locations (central)", "display": "(816) 300-3776", "e164": "+18163003776"},
+    {"label": "Raytown", "display": "(816) 737-0055", "e164": "+18167370055"},
+    {"label": "Belton / Butler", "display": "(816) 322-8883", "e164": "+18163228883"},
+    {"label": "Independence / Higginsville", "display": "(816) 373-7900", "e164": "+18163737900"},
+    {"label": "Wichita", "display": "(316) 858-3334", "e164": "+13168583334"}
+  ],
+  "other_allowed_tel": [],
+  "banned_numbers": ["8163229883"]
+}
