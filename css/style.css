@@ -119,6 +119,8 @@ p{margin:0 0 1em}
   .nav-links a{width:100%}
   .menu-toggle{display:inline-flex}
   .nav .btn{display:none}
+  .nav-links.open{padding-top:76px}
+  .nav-links.open ~ .btn{display:flex;position:absolute;top:calc(100% + 16px);left:16px;right:16px;justify-content:center;z-index:1}
   .topbar-inner{font-size:.78rem;gap:10px;justify-content:center}
 }
 
