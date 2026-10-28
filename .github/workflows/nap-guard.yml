@@ -1,0 +1,20 @@
+name: NAP guard
+# Fails the check if any file carries a banned phone number or a tel:/schema
+# phone that is not listed in data/nap.json. Read-only: no deploy, no secrets.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  phone-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Phone / NAP check
+        run: python3 scripts/check_nap.py
